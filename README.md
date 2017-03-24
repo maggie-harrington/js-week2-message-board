@@ -94,8 +94,9 @@ Copyright (c) 2017 Maggie Harrington
 * Create question route and question-detail-tile component to display details of an individual question, edit router.js to pass in question_id to question route
 * Create component new-question with form to add new questions
 * Create component update-question with form to edit questions
-* Create form to add answers to a question (on question page)
-* Display answers on question page
+* Create one-to-many relationship between question and answer models
+* Create component new-answer with form to add answers to a question (on question page)
+* Create component answer-tile to display answers on question page
 * Clean up code/ refactor
 * Styling with SASS (if time allows)
 
