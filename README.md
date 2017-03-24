@@ -89,12 +89,11 @@ Copyright (c) 2017 Maggie Harrington
 * Create index route
 * Create navbar/header to appear on all pages containing site name and home link
 * Firebase setup (see details below in next section)
-* Create question model
-* Create answer model
+* Create question model and answer model
 * Create question-tile component to display list of all questions on index page
 * Create question route and question-detail-tile component to display details of an individual question, edit router.js to pass in question_id to question route
-* Create form to add new questions
-* Create form to edit questions
+* Create component new-question with form to add new questions
+* Create component update-question with form to edit questions
 * Create form to add answers to a question (on question page)
 * Display answers on question page
 * Clean up code/ refactor
