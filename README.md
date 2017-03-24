@@ -134,7 +134,7 @@ In config/environment.js:
     APP: {
     ...`
 * Restart server after EmberFire config.
-* Create hard-coded data in a .json file (array of objects, make sure to pluralize the name).
+* Create hard-coded model data in a .json file (object containing arrays of objects, make sure to pluralize the model names).
 * From within Firebase, navigate to the Database section of project and select Data tab, then select _Import JSON_ and navigate to file created above.
 * In Rules tab, update read and write to true.
 * Update model hook in route handler (app/routes/routename.js)
