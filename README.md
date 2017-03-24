@@ -85,12 +85,12 @@ Copyright (c) 2017 Maggie Harrington
 
 ### Project stages
 
-* Config/dependencies (see details below in next section)
-  * Initial project setup
-  * Generate initial routes, models (question and answer), and components
-  * Firebase setup for both question and answer models
-* Create index page to display list of all questions
+* Initial project setup (see details below in next section)
+* Create index route
 * Create navbar/header to appear on all pages containing site name and home link
+* Firebase setup (see details below in next section)
+* Create question model
+* Display list of all questions on index page
 * Create question page to display details of an individual question
 * Create form to add new questions
 * Create form to edit questions
