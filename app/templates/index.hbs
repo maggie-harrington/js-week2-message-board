@@ -1,6 +1,13 @@
-{{new-question question=model saveQuestion="saveQuestion"}}<br>
+<div class="row">
+  <div class="col-xs-8">
+    <h3>Questions:</h3><br>
 
-<h3>Questions:</h3><br>
-{{#each model.questions as |question|}}
-  {{question-tile question=question}}
-{{/each}}
+    {{#each model.questions as |question|}}
+      {{question-tile question=question}}
+    {{/each}}
+  </div>
+
+  <div class="col-xs-4">
+    {{new-question question=model saveQuestion="saveQuestion"}}<br>
+  </div>
+</div>

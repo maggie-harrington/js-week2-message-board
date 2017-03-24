@@ -1,9 +1,18 @@
 {{question-detail-tile question=model}}
 
-{{update-question question=model updateQuestion="updateQuestion"}}
+<hr>
+<br>
 
-{{new-answer question=model saveAnswer="saveAnswer"}}
+<div class="row">
+  <div class="col-xs-8">
+    {{#each model.answers as |answer|}}
+      {{answer-tile answer=answer}}
+    {{/each}}
+  </div>
 
-{{#each model.answers as |answer|}}
-  {{answer-tile answer=answer}}
-{{/each}}
+  <div class="col-xs-4">
+    {{new-answer question=model saveAnswer="saveAnswer"}}
+
+    {{update-question question=model updateQuestion="updateQuestion"}}
+  </div>
+</div>
